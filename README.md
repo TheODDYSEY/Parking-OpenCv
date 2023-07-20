@@ -15,7 +15,7 @@ To run this project, you will need the following software and libraries:
 2.OpenCV (cv2)
 3.NumPy (numpy)
 4.Pickle (pickle)
-5.CVZone (cvzone)
+CVZone (cvzone)
 
 You can install the required libraries using pip:
 
@@ -47,10 +47,10 @@ For each parking space, the number of non-zero (white) pixels is counted in the 
 The number of free parking spaces is displayed on the output video, along with rectangles drawn around each parking space, representing their status (free or occupied).
 
 ## References
-1.OpenCV: https://opencv.org/
-2.NumPy: https://numpy.org/
-3.Pickle: https://docs.python.org/3/library/pickle.html
-4.CVZone: https://github.com/cvzone/cvzone
+OpenCV: https://opencv.org/
+NumPy: https://numpy.org/
+Pickle: https://docs.python.org/3/library/pickle.html
+CVZone: https://github.com/cvzone/cvzone
 Note: The CarParkPos file should contain the serialized list of parking space positions (x, y coordinates) that are relevant to the provided car park video. This file is crucial for the correct functioning of the system, and its format should be compatible with the pickle.load() function. Make sure to provide the correct file with the accurate parking space positions to get accurate results.
 
 Additionally, this project assumes the video file is present in the specified path (./media/carPark.mp4). If the video is not available or the path is incorrect, the system may not work as expected. Please ensure that the video is accessible before running the script.
