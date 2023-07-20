@@ -1,8 +1,8 @@
-Parking Space Monitoring System using OpenCV
+## Parking Space Monitoring System using OpenCV
 This project is a Parking Space Monitoring System that uses OpenCV (Open Source Computer Vision Library) to analyze a video feed from a car park and determine the availability of parking spaces. The system processes the video frames, applies image processing techniques, and then identifies the number of free parking spaces in real-time.
 
 
-Requirements
+## Requirements
 
 Clone this project 
 
@@ -21,7 +21,7 @@ You can install the required libraries using pip:
 
 pip install opencv-python numpy pickle-mixin cvzone
 
-Usage
+## Usage
 Download the project files, including the car park video (carPark.mp4) and the serialized position data (CarParkPos).
 Make sure you have the required libraries installed (see Requirements).
 Execute the Python script (parking_space_monitoring.py).
@@ -42,7 +42,7 @@ For each parking space, the number of non-zero (white) pixels is counted in the 
 
 The number of free parking spaces is displayed on the output video, along with rectangles drawn around each parking space, representing their status (free or occupied).
 
-References
+## References
 OpenCV: https://opencv.org/
 NumPy: https://numpy.org/
 Pickle: https://docs.python.org/3/library/pickle.html
