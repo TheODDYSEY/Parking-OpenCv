@@ -71,6 +71,11 @@ while True:
     cv2.imshow("Image", img)
     cv2.imshow("ImageBlur", imgBlur)
     cv2.imshow("ImageThresh", imgMedian)
+    
+        # Reduce the windows sizes
+    cv2.resizeWindow("Image", 800, 600)
+    cv2.resizeWindow("ImageBlur", 800, 600)
+    cv2.resizeWindow("ImageThresh", 800, 600)
 
     # slows down the video
     cv2.waitKey(10)
