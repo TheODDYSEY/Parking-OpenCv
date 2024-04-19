@@ -5,9 +5,9 @@ This project is a Parking Space Monitoring System that uses OpenCV (Open Source 
 ## Requirements
 
 Clone this project 
-
-https://github.com/TheODDYSEY/Parking-OpenCv.git
-
+```
+ git clone https://github.com/TheODDYSEY/Parking-OpenCv.git
+```
 
 To run this project, you will need the following software and libraries:
 
@@ -18,12 +18,15 @@ To run this project, you will need the following software and libraries:
 CVZone (cvzone)
 
 You can install the required libraries using pip:
-
+```
 pip install opencv-python numpy pickle-mixin cvzone
-
+```
 cd into the project folder
 
-Run this command : python main.py 
+Run this command :
+```
+python main.py
+```
 
 ## Usage
 Download the project files, including the car park video (carPark.mp4) and the serialized position data (CarParkPos).
